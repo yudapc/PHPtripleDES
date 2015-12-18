@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Triple DES with php</title>
+    </head>
+    <body>
+        <h1>Implementasi Triple DES</h1>
+        <hr>
+        <h2>Enkrip</h2>
+        <form name="encrypt-data" action="encrypt.php" method="post">
+            Key: 
+            <br />
+            <input type="text" name="secret" placeholder="Key" />
+            <br />
+            <br />
+            Data: 
+            <br />
+            <textarea name="data" placeholder="Data" rows="15" cols="80"></textarea>
+            <br />
+            <input type="submit" value="Enkrip" />
+        </form>
+        <hr>
+        <h2>Dekrip</h2>
+        <form name="decrypt-data" action="decript.php" method="post">
+            Key: 
+            <br />
+            <input type="text" name="secret" placeholder="Key" />
+            <br />
+            <br />
+            Data: 
+            <br />
+            <textarea name="data" placeholder="Data" rows="15" cols="80"></textarea>
+            <br />
+            <input type="submit" value="Dekrip" />
+        </form>
+        
+    </body>
+</html>
